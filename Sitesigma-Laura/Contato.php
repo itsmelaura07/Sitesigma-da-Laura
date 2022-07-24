@@ -4,6 +4,7 @@ include_once './includes/_dados.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';
 include_once './includes/_banco.php';
+
 if (isset($_POST['txtNome'])) {
     $nome = ($_POST['txtNome']);
 }
@@ -17,7 +18,11 @@ if (isset($_POST['txtmsg'])) {
     $msg = ($_POST['txtmsg']);
 }
 ?>
-<h1>Contato</h1>
+
+<div  class="prod">
+<h1 id='subtitulo' class="clear">Contato</h1>
+    <div class="row mt-5">
+
 <form action="./contato.php" method="post">
 <div class="container">
 <ul class="cadastro">
