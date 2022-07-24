@@ -5,8 +5,8 @@ include_once './includes/_head.php';
 include_once './includes/_header.php';
 include_once './includes/_banco.php';
 ?>
-<h1>Home</h1>
-<div class="container">
+
+<div id='promo'class="container">
 <h2 id="promoind">Promoção</h2>
     <div class="row mt-5">
         
@@ -17,7 +17,7 @@ include_once './includes/_banco.php';
     while ($dados = mysqli_fetch_assoc($exec)){
       echo '<h1>'.$dados['Nome'].'</h1>';
     ?>
-    <div class="card m-3" style="width: 18rem;">
+    <div id='jogadores' class="card m-3" style="width: 18rem;">
   <img src="./content/<?php echo $dados['imagem'];?>" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title"><?php echo $dados['Nome'];?></h5>
@@ -30,6 +30,8 @@ include_once './includes/_banco.php';
 ?>
 </div>
 </div>
+
+<
 
 
 <?php
