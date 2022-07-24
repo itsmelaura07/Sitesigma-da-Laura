@@ -1,1 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
 
+body{
+    position: absolute;
+    
+    background-color: #0a131a;
+}
+
+
+#promo{
+    position: relative;
+    margin-right: 200px;
+    background-image: linear-gradient(to right, #0a131a, #616308);
+    width: 200%;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+#jogadores{
+    position: relative;
+ 
+    margin-left: 47px;
+    margin-bottom: 30px;
+    border:transparent;
+    background-color: rgb(157, 225, 241)
+
+    }
+    .btn{
+        background-color:#e0f1a1;
+        text-decoration:none;
+        color:#1e1ca0;
+    }
+
+    .navbar-brand{
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+    }
+    .nav-link{
+      
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        font-size: 20px;
+    }
+#subtitulo{
+    position: relative;
+    margin-right: 200px;
+    background-image: linear-gradient(to right, #0a131a, #616308);
+    width: 100%;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+ 
+
+}
+.clear{
+    padding-bottom:10px;
+    float:top;
+    width: 100%;
+    text-align:center;
+}
+
+#titulo{
+    position: relative;
+    margin-right: 200px;
+    background-image: linear-gradient(to right, #0a131a, #616308);
+    width: 100%;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+ 
+
+}
+
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+  position: absolute; 
+  left: 0; 
+  right: 0;
+  margin:0 auto 0 auto; 
+  width: 100vh;
+}
+.center img{
+    max-width:600px;
+    height:auto;
+}
+.card-img-top{
+    max-width: 300px;
+    height:200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin:0 auto;
+}
+#submit{
+    margin:15px 0;
+    padding: 2px 0 2px 0;
+    border:1px solid rgb(193, 193, 193);
+    border-radius: 10px;
+}
